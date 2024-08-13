@@ -78,4 +78,4 @@ In order to evaluate the performance of the trained models, you can follow the s
 
 Furthermore, the `Create_Images.ipynb` and `Train_Model.ipynb` notebooks provide detailed steps for the code behind the three scripts.
 
-Please view these notebooks to better understand how the data was acquired and how the model was trained and evaluated.
+Please view these notebooks in `demo` to better understand how the data was acquired and how the model was trained and evaluated.
