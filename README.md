@@ -84,4 +84,12 @@ The `Model_Evaluation.ipynb` is a notebook documenting the process of loading in
 The `firm_list.csv` file stores all the tickers that were used to create the OHLC images. 
 
 ## References
-1. Jiang, Jingwen and Kelly, Bryan T. and Xiu, Dacheng, (Re-)Imag(in)ing Price Trends (December 1, 2020). Chicago Booth Research Paper No. 21-01, Available at SSRN: https://ssrn.com/abstract=3756587 or http://dx.doi.org/10.2139/ssrn.3756587
+1. CFI Team. “Exponentially Weighted Moving Average (EWMA).” Corporate Finance Institute, 9 Oct. 2023, corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/exponentially-weighted-moving-average-ewma/#:~:text=The%20Exponentially%20Weighted%20Moving%20Average%20(EWMA)%20is%20a%20quantitative%20or,technical%20analysis%20and%20volatility%20modeling.
+2. “Ensemble Voting.” Soulpage IT Solutions, 19 June 2023, soulpageit.com/ai-glossary/ensemble-voting-explained/.
+3. Fernando, Jason. “Compound Annual Growth Rate (CAGR) Formula and Calculation.” Investopedia, Investopedia, www.investopedia.com/terms/c/cagr.asp. Accessed 13 Aug. 2024.
+4. Jiang, Jingwen and Kelly, Bryan T. and Xiu, Dacheng, (Re-)Imag(in)ing Price Trends (December 1, 2020). Chicago Booth Research Paper No. 21-01, Available at SSRN: https://ssrn.com/abstract=3756587 or http://dx.doi.org/10.2139/ssrn.3756587
+5. Mitchell, Cory. “Understanding an OHLC Chart and How to Interpret It.” Investopedia, Investopedia, 7 Apr. 2024, www.investopedia.com/terms/o/ohlcchart.asp.
+6. Python Basics. “Python Basics Tutorial Find Complete List of Stock Market Ticker Symbols | Pandas Tolist Method.” YouTube, YouTube, 11 May 2020, www.youtube.com/watch?v=lR4bMiXN02M.
+7. Pillow. “Image Module.” Pillow (PIL Fork), pillow.readthedocs.io/en/stable/reference/Image.html. Accessed 13 Aug. 2024.
+8. Yahoo Finance. “Yfinance.” PyPI, pypi.org/project/yfinance/. Accessed 13 Aug. 2024.
+9. Yahoo Finance. “What Is the Adjusted Close? | Yahoo Help - SLN28256.” Yahoo!, Yahoo!, help.yahoo.com/kb/SLN28256.html#:~:text=Adjusted%20close%20is%20the%20closing,applicable%20splits%20and%20dividend%20distributions. Accessed 13 Aug. 2024. 
