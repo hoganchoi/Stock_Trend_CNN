@@ -22,7 +22,7 @@ The `USEME.md` gives detailed explanation on how to run the scripts provided in 
 The `MORE_INFO.md` file gives detailed explanation into the images used for this project, the model architecture, and the performance results of the model. The `MORE_INFO.md` is located in the root folder. 
 
 ## Dataset Availability
-This project comes with a `csv` file containing the list of firms that I worked with, OHLC images, and pre-trained model weights (I5R5 base image only). However, due to the large number of images needed for this project (a single dataset can potentially contain approximately 1.5 million images), I've provided a zip file in the data directory storing most of the datasets. Hence, if you want to run this project, please use the scripts to generate the images from the provided `csv` file or extract the zip file before running the notebooks.
+This project comes with a `csv` file containing the list of firms that I worked with and OHLC images for Apple stock (1993 - 2019) only. This was because the entire dataset was over 5 GB (compressed was 2 GB0 and couldn't be uploaded to github. Hence, please use the provided scripts and the `csv` file to create the images that I used to train the model for this project. However, you can also download the I5R5 base images [here] and the pre-trained weights (I5R5 base image only) [here].
 
 ## Example Images
 There are six images in the 'example_images' directory. This directory stores the images used in the `MORE_INFO.md` file.
