@@ -84,3 +84,4 @@ The `Model_Evaluation.ipynb` is a notebook documenting the process of loading in
 The `firm_list.csv` file stores all the tickers that were used to create the OHLC images. 
 
 ## References
+1. Jiang, Jingwen and Kelly, Bryan T. and Xiu, Dacheng, (Re-)Imag(in)ing Price Trends (December 1, 2020). Chicago Booth Research Paper No. 21-01, Available at SSRN: https://ssrn.com/abstract=3756587 or http://dx.doi.org/10.2139/ssrn.3756587
