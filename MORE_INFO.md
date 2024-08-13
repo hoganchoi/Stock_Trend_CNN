@@ -135,7 +135,7 @@ After obtaining our average annual growth rate for each $p$ column, I equally se
 
 Subsequently, I could obtain a decile portfolio depicting the annual growth rates similar to the portfolio presented in the paper. Below shows the $I5R5$ decile portfolio from this project and the paper. 
 
-<div style="align: center;">
+<div align="center">
   <table style="margin: 0 auto; border-collapse: collapse;">
     <thead>
       <tr>
@@ -198,6 +198,7 @@ Subsequently, I could obtain a decile portfolio depicting the annual growth rate
     </tbody>
   </table>
 </div>
+
 
 <p align="center">
   <em>
