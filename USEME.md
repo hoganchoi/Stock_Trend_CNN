@@ -74,7 +74,7 @@ After changing the directories or using the default directories, please run each
 ### Using Notebooks
 In order to evaluate the performance of the trained models, you can follow the steps in `Model_Evaluation.ipynb` notebook. This notebook documents on how to load in saved models, apply them to testing images, and view their decile portfolio performances.
 
-(NOTE: The notebook documents the results compiled by my personal computer. Hence, the results documented in the notebook are historical and you may not get the same results. Additionally, because the training and testing images are not initially provided, please don't run the notebook unless you have the necessary images and models. You can download the training and testing images in the README file.)
+(NOTE: The notebook documents the results compiled by my personal computer. Hence, the results documented in the notebook are historical and you may not get the same results. Additionally, because the training and testing images are not initially provided, please don't run the notebook unless you have the necessary images and models. You can download the training and testing images as well as the pre-trained models in the README file.)
 
 Furthermore, the `Create_Images.ipynb` and `Train_Model.ipynb` notebooks provide detailed steps for the code behind the three scripts.
 
