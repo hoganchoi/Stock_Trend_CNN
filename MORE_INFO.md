@@ -85,18 +85,9 @@ A detailed documentation of training the model is stored in the `Train_Model.ipy
 ## Model Results and Evaluation
 Each image has its subsequent return value for the following five, twenty or sixty days. An array containing these values are created, with the number of firms being the columns and the number of intervals being the rows. An example is shown below.
 
-$$
-\left[
-\begin{array}{c|cccc}
-    & \text{Firm 1} & \text{Firm 2} & \ldots & \text{Firm $k$} \\
-\hline
-\text{Interval 1} & ret_{1,1} & ret_{1,2} & \ldots & ret_{1,k} \\
-\text{Interval 2} & ret_{2,1} & ret_{2,2} & \ldots & ret_{2,k} \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
-\text{Interval $l$} & ret_{l,1} & ret_{l,2} & \ldots & ret_{l,k}
-\end{array}
-\right]
-$$
+<p align="center">
+  <img src="example_images/returns_table.png" />
+</p>
 
 <p align="center">
   <em>
@@ -106,31 +97,9 @@ $$
 
 After this step, a similar array is created except this array contains the predicted probability of the stock going up for each image. These probabilities are then sorted in ascending order for each row. 
 
-$$
-\left[
-\begin{array}{c|cccc}
-    & \text{Firm 1} & \text{Firm 2} & \ldots & \text{Firm $k$} \\
-\hline
-\text{Interval 1} & pred_{1,1} & pred_{1,2} & \ldots & pred_{1,k} \\
-\text{Interval 2} & pred_{2,1} & pred_{2,2} & \ldots & pred_{2,k} \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
-\text{Interval $l$} & pred_{l,1} & pred_{l,2} & \ldots & pred_{l,k}
-\end{array}
-\right]
-
-\rightarrow
-
-\left[
-\begin{array}{cccc}
-    \text{p1} & \text{p2} & \ldots & \text{p$k$} \\
-\hline
-pred_{1,10} & pred_{1,k-5} & \ldots & pred_{1,4} \\
-pred_{2,7} & pred_{2,204} & \ldots & pred_{2,k-3} \\
-\vdots & \vdots & \vdots & \vdots \\
-pred_{l,4} & pred_{l,23} & \ldots & pred_{l,54}
-\end{array}
-\right]
-$$
+<p align="center">
+  <img src="example_images/predictions_table.png" />
+</p>
 
 <p align="center">
   <em>
@@ -140,18 +109,9 @@ $$
 
 The original indices of the firms are saved while sorting and applied to the return array in order to obtain the true return values of each prediction. 
 
-$$
-\left[
-\begin{array}{c|cccc}
-    & \text{p1} & \text{p2} & \ldots & \text{p$k$} \\
-\hline
-\text{Interval 1} & ret_{1,10} & ret_{1,k-5} & \ldots & ret_{1,4} \\
-\text{Interval 1} & ret_{2,7} & ret_{2,204} & \ldots & ret_{2,k-3} \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
-\text{Interval 1} & ret_{l,4} & ret_{l,23} & \ldots & ret_{l,54}
-\end{array}
-\right]
-$$
+<p align="center">
+  <img src="example_images/returns_sorted.png" />
+</p>
 
 <p align="center">
   <em>
@@ -175,7 +135,7 @@ After obtaining our average annual growth rate for each $p$ column, I equally se
 
 Subsequently, I could obtain a decile portfolio depicting the annual growth rates similar to the portfolio presented in the paper. Below shows the $I5R5$ decile portfolio from this project and the paper. 
 
-<div style="text-align: center;">
+<div style="align: center;">
   <table style="margin: 0 auto; border-collapse: collapse;">
     <thead>
       <tr>
