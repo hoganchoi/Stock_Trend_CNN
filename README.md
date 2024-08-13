@@ -22,13 +22,13 @@ The `USEME.md` gives detailed explanation on how to run the scripts provided in 
 The `MORE_INFO.md` file gives detailed explanation into the images used for this project, the model architecture, and the performance results of the model. The `MORE_INFO.md` is located in the root folder. 
 
 ## Dataset Availability
-This project comes with a `csv` file containing the list of firms that I worked with, compressed zip files containing the artificial stock dataset and their respective OHLC images, and the model's predictions for $I5R5$ images (please see `data` directory). This was because the entire dataset was over 5 GB (compressed was 2 GB) and couldn't be uploaded to github. Hence, please use the provided scripts and `csv` file to create the images that I used to train the model for this project. However, you can also download the preprocessed stock datasets, the I5R5 base images, and the pre-trained weights (I5R5 base image only) [here](https://drive.google.com/drive/folders/12Hv0MxHiuYcHNRvFwyzIpNn9WUV5ZipS?usp=sharing).
+This project comes with a `csv` file containing the list of firms that I worked with, compressed zip files containing the artificial stock dataset and their respective OHLC images, and the model's predictions for $I5R5$ images (please see `data` directory). This was because the entire dataset was over 5 GB (compressed was 2 GB) and couldn't be uploaded to github. Hence, please use the provided scripts and `csv` file to create the images that I used to train the model for this project. However, you can also download the preprocessed stock datasets, the I5R5 base images, and the pre-trained weights ($I5R5$ base image only) [here](https://drive.google.com/drive/folders/12Hv0MxHiuYcHNRvFwyzIpNn9WUV5ZipS?usp=sharing).
 
 ## Example Images
 There are six images in the `example_images` directory. This directory stores the images used in the `MORE_INFO.md` file.
 
 ## Code Design
-This project consists of the `src` folder, `data` folder, three Python notebooks, and a list of firms used for this project. 
+This project consists of the `src` folder, `data` folder, `demo` folder, and a list of firms used for this project. 
 
 The `src` folder contains the source code for the project. It has the following packages:
  - `data`: Stores all the code for data acquisition and image generation.
@@ -75,11 +75,10 @@ The `data` folder stores all the datasets and images compiled by the project.
  - `saved_models`: Contains trained model weights for one week, one month, and three months stock trend images.
  - `predictions`: Contains the predictions of train models for each individual firm (one week, one month, and three months stock trend).
 
-The `Create_Images.ipynb` is a notebook documenting the process of acquiring stock trend datasets, preprocessing the obtained datasets, and generating OHLC images.
-
-The `Train_Model.ipynb` is a notebook documenting the process of training and saving the CNN models.
-
-The `Model_Evaluation.ipynb` is a notebook documenting the process of loading in trained models, applying models to testing dataset to make predictions, and evaluating the overall performance of the models.
+The `demo` folder stores all the notebooks documenting each step of the project.
+ - `Create_Images.ipynb` is a notebook documenting the process of acquiring stock trend datasets, preprocessing the obtained datasets, and generating OHLC images.
+ - `Train_Model.ipynb` is a notebook documenting the process of training and saving the CNN models.
+ - `Model_Evaluation.ipynb` is a notebook documenting the process of loading in trained models, applying models to testing dataset to make predictions, and evaluating the overall performance of the models.
 
 The `firm_list.csv` file stores all the tickers that were used to create the OHLC images. 
 
