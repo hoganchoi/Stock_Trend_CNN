@@ -22,7 +22,7 @@ The `USEME.md` gives detailed explanation on how to run the scripts provided in 
 The `MORE_INFO.md` file gives detailed explanation into the images used for this project, the model architecture, and the performance results of the model. The `MORE_INFO.md` is located in the root folder. 
 
 ## Dataset Availability
-This project comes with a `csv` file containing the list of firms that I worked with, OHLC images, and pre-trained model weights (I5R5 base image only). However, due to the large number of images needed for this project (a single dataset can potentially contain approximately 1.5 million images), I've provided a zip file in the data directory storing most of the datasets. I've uploaded the list of firms and the pre-trained model weights; the rest of the datasets are contained the provided zip file. Hence, if you want to run this project, please use the scripts to generate the images from the provided `csv` file or extract the zip file before running the notebooks.
+This project comes with a `csv` file containing the list of firms that I worked with, OHLC images, and pre-trained model weights (I5R5 base image only). However, due to the large number of images needed for this project (a single dataset can potentially contain approximately 1.5 million images), I've provided a zip file in the data directory storing most of the datasets. Hence, if you want to run this project, please use the scripts to generate the images from the provided `csv` file or extract the zip file before running the notebooks.
 
 ## Example Images
 There are six images in the 'example_images' directory. This directory stores the images used in the `MORE_INFO.md` file.
