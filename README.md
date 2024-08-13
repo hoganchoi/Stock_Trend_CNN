@@ -22,10 +22,10 @@ The `USEME.md` gives detailed explanation on how to run the scripts provided in 
 The `MORE_INFO.md` file gives detailed explanation into the images used for this project, the model architecture, and the performance results of the model. The `MORE_INFO.md` is located in the root folder. 
 
 ## Dataset Availability
-This project comes with a `csv` file containing the list of firms that I worked with, artificially made OHLC images (for testing purposes), and pre-trained model weights (I5R5 base image only). The training and testing images were not uploaded due to the amount of images generated (a single dataset can potentially contain approximately 1.5 million images). Hence, if you want to run this project, please use the scripts to generate the images from the provided `csv` file or download the images [here].
+This project comes with a `csv` file containing the list of firms that I worked with, OHLC images, and pre-trained model weights (I5R5 base image only). However, due to the large number of images needed for this project (a single dataset can potentially contain approximately 1.5 million images), I've provided a zip file in the data directory. This zip file will contain all the data necessary for compiling the provided codes. Hence, if you want to run this project, please use the scripts to generate the images from the provided `csv` file or extract the zip file before running the notebooks.
 
 ## Example Images
-There are four images in the 'example_images' directory. This directory stores the images used in the `MORE_INFO.md` file.
+There are six images in the 'example_images' directory. This directory stores the images used in the `MORE_INFO.md` file.
 
 ## Code Design
 This project consists of the `src` folder, `data` folder, three Python notebooks, and a list of firms used for this project. 
