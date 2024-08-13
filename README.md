@@ -74,6 +74,7 @@ The `data` folder stores all the datasets and images compiled by the project.
         - `I60R60`: Contains the OHLC images for three months stock trends and predictions for the next three months.
  - `saved_models`: Contains trained model weights for one week, one month, and three months stock trend images.
  - `predictions`: Contains the predictions of train models for each individual firm (one week, one month, and three months stock trend).
+(NOTE: Initially, the `data` directory is not structured as above. However, after deploying the scripts or downloading the datasets, the directory should follow the provided design.)
 
 The `demo` folder stores all the notebooks documenting each step of the project.
  - `Create_Images.ipynb` is a notebook documenting the process of acquiring stock trend datasets, preprocessing the obtained datasets, and generating OHLC images.
